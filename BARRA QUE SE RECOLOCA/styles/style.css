@@ -1,0 +1,66 @@
+body
+{
+    background-color: rgb(153, 153, 153);
+}
+
+.menu
+{
+    position: absolute;
+    top: 20px;
+}
+
+ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+li
+{
+    display: inline;
+    background-color: black;
+    padding: 20px;
+}
+
+li>a
+{
+    text-decoration: none;
+    background-color: rgba(106, 160, 45, 0.966);
+    color: white;
+    padding: 10px 120.5px 10px 120.5px;
+}
+
+p
+{
+    top: 50px;
+    position: absolute;
+}
+
+
+
+
+@media screen and (max-width: 900px) 
+{
+    .menu
+    {
+        float: left;
+    }
+    
+    li
+    {
+        display: block;
+    }
+
+    .texto
+    {
+        position: absolute;
+        right: 0px;
+        width: 500px;
+    }
+
+    p
+    {
+        width: 500px;
+    }
+}
+
